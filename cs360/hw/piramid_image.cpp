@@ -14,7 +14,7 @@ int main()
     for (space=1; space < row-i-1; space++) {
           cout << " ";
       }
-    for (j=0; j < 2*i+1; j++){
+    for (j=0; j<2*i+1; j++){
 
       cout << "*";
 

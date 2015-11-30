@@ -1,4 +1,3 @@
-# npu
 insert node:
 void insertNodeAtTail(LIST*alist, int key)
 {
@@ -12,16 +11,3 @@ void insertNodeAtTail(LIST*alist, int key)
 
   lastnode->next=newnode;
 }
-list : Stack - LIFO
-
-typedef struct stack;
-{
-  int count;
-  node * stacktop;
-
-}Stack;
-
-push
-pop
-create stack
-delete stack;
